@@ -1,0 +1,82 @@
+/* Resetear estilos por defecto del navegador */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('Imagenes/extra_clean_paper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+/* Estilo para el encabezado principal */
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    font-style: italic;
+    font-size: 50px;
+    padding: 1%;
+    margin: 1%;
+}
+
+/* Estilo para los encabezados secundarios */
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* Estilo para el párrafo de descripción */
+p {
+    margin-bottom: 20px;
+}
+
+/* Estilo para el enlace de navegación */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: floralwhite;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para los enlaces del pie de página */
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Estilo para el encabezado del pie de página */
+footer h4 {
+    margin-top: 20px;
+}
+
+/* Estilo para la ubicación en el pie de página */
+footer p {
+    font-style: italic;
+}
